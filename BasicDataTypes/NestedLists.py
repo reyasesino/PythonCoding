@@ -1,8 +1,6 @@
 
 
 
-
-
 if __name__ == '__main__':
     students = []
     max = 0
