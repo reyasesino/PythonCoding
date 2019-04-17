@@ -1,4 +1,4 @@
-def split_and_join(line):
+def split_and_join(line)->str:
 
     split = line.split(" ")
     joining = "-".join(split)
@@ -6,4 +6,4 @@ def split_and_join(line):
 
 
 if __name__ == '__main__':
-    split_and_join(input())
+    print(split_and_join(input()))
